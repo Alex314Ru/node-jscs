@@ -5,7 +5,7 @@
   },
   "description": "JavaScript Code Style",
   "name": "jscs",
-  "version": "3.0.8",
+  "version": "3.0.9",
   "main": "lib/checker",
   "homepage": "http://jscs.info",
   "keywords": [
@@ -57,7 +57,7 @@
     }
   ],
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 4.0.0"
   },
   "dependencies": {
     "chalk": "~1.1.0",
@@ -68,7 +68,7 @@
     "exit": "~0.1.2",
     "glob": "^5.0.1",
     "htmlparser2": "3.8.3",
-    "js-yaml": "~3.4.0",
+    "js-yaml": "^3.13.1",
     "jscs-jsdoc": "git://github.com/Alex314Ru/jscs-jsdoc.git#v2.0.1",
     "jscs-preset-wikimedia": "~1.0.0",
     "jsonlint": "~1.6.2",
